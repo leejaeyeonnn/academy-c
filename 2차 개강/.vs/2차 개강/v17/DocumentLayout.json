@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\2\uCC28 \uAC1C\uAC15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55A19E2B-6D5C-4C32-9C48-227D4418AC1C}|..\\class18th (random)\\class18th (random).vcxproj|C:\\Users\\user\\Desktop\\class18th (random)\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39707C8D-E7CE-4332-BBCB-7AC35D8B7A57}|2\uCC28 \uAC1C\uAC15.vcxproj|C:\\Users\\user\\Desktop\\2\uCC28 \uAC1C\uAC15\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39707C8D-E7CE-4332-BBCB-7AC35D8B7A57}|2\uCC28 \uAC1C\uAC15.vcxproj|solutionrelative:\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uC18C\uC2A4.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\class18th (random)\\\uC18C\uC2A4.c",
+              "RelativeDocumentMoniker": "..\\class18th (random)\\\uC18C\uC2A4.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\class18th (random)\\\uC18C\uC2A4.c",
+              "RelativeToolTip": "..\\class18th (random)\\\uC18C\uC2A4.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-09T10:33:45.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC18C\uC2A4.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\2\uCC28 \uAC1C\uAC15\\\uC18C\uC2A4.c",
+              "RelativeDocumentMoniker": "\uC18C\uC2A4.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\2\uCC28 \uAC1C\uAC15\\\uC18C\uC2A4.c",
+              "RelativeToolTip": "\uC18C\uC2A4.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-09T09:03:44.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
