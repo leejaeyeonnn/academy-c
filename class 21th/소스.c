@@ -5,9 +5,11 @@
 #include <string.h>
 
 #include "character.h"
+#include "keyboard.h"
 
 #define WIDTH 11
 #define HEIGHT 11
+
 
 
 char maze[WIDTH][HEIGHT];
@@ -61,9 +63,12 @@ int  main()
 	while (1)
 	{
 		Renderer();
-
-		GotoXY(character.x, character.y);
+		
+		GotoXY(character.x, character.y); 
 		printf("%s", character.shape);
+		Input(maze, &character); 
+
+		Sleep(25); 
 
 		system("cls"); 
 	}

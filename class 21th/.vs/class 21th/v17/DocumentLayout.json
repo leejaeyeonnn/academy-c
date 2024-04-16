@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\class 21th\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|C:\\Users\\user\\Desktop\\class 21th\\keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|solutionrelative:keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|C:\\Users\\user\\Desktop\\class 21th\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\class 21th\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|solutionrelative:\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|C:\\Users\\user\\Desktop\\class 21th\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\class 21th\\keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|solutionrelative:keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\class 21th\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF61C409-45B5-4880-AB9D-C2DC8BFA1FC9}|class 21th.vcxproj|solutionrelative:character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "keyboard.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\class 21th\\keyboard.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\keyboard.h",
               "RelativeDocumentMoniker": "keyboard.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\class 21th\\keyboard.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\keyboard.h",
               "RelativeToolTip": "keyboard.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-15T10:38:21.905Z",
               "EditorCaption": ""
@@ -41,24 +41,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "character.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\class 21th\\character.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\character.h",
               "RelativeDocumentMoniker": "character.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\class 21th\\character.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\character.h",
               "RelativeToolTip": "character.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-15T10:14:26.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "\uC18C\uC2A4.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\class 21th\\\uC18C\uC2A4.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\\uC18C\uC2A4.c",
               "RelativeDocumentMoniker": "\uC18C\uC2A4.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\class 21th\\\uC18C\uC2A4.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\class 21th\\\uC18C\uC2A4.c",
               "RelativeToolTip": "\uC18C\uC2A4.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAARAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-15T09:13:07.099Z",
               "EditorCaption": ""
