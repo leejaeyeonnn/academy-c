@@ -1,0 +1,7 @@
+﻿  소스.c
+C:\Users\user\Desktop\class 23th\소스.c(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'star' 왼쪽은 무시됩니다.
+C:\Users\user\Desktop\class 23th\소스.c(57,14): warning C4013: 'CreatConsoleScreenBuffer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Desktop\class 23th\소스.c(57,12): warning C4047: '=': 'HANDLE'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\user\Desktop\class 23th\소스.c(134,3): warning C4267: '함수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+소스.obj : error LNK2019: CreatConsoleScreenBufferInitializeScreen 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\user\Desktop\class 23th\x64\Debug\class 23th.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
