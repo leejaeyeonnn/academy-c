@@ -1,7 +1,7 @@
 #pragma once
 #include <windows.h>
-typedef struct player1 //이름을 재정의 한다
 
+typedef struct player1 //이름을 재정의 한다
 {
 	int x, y;
 	const char* shape;
@@ -10,6 +10,6 @@ typedef struct player1 //이름을 재정의 한다
 
 void GotoXY(int x, int y)
 {
-	COORD positon = { x, y }; 
-
+	COORD position = { x, y }; 
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
 }
