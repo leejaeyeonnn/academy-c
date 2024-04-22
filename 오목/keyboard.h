@@ -9,6 +9,7 @@
 #define RIGHT 77
 #define DOWN 80
 #define ENTER 13
+
 #define WIDTH 19
 #define HEIGHT 19
 
@@ -26,35 +27,24 @@ void Input(char maze[WIDTH][HEIGHT], player1*player1)
 			break;
 
 			case UP:  
-				if (maze[player1->y-1][player1->x/2] != '1') //벽이 없을 때
-				{
-					player1->y--;
-				}
+				player1->y--;
+				break;
 
 			case LEFT:
-				if (maze[player1->y][player1->x/2-1] != '1')
-				{
-					player1->x-=2;
-				}
+				
+				player1->x -= 2;
+				break;
 
 			case RIGHT:
-				if (maze[player1->y][player1->x/2+1] != '1')
-				{
-					player1->x+=2;
-				}
+				
+				player1->x += 2;
+				break;
 
 			case DOWN:
-				if (maze[player1->y+1][player1->x/2] != '1')
-				{
+				
 					player1->y++;
-				}
-			case ENTER:
-				if (maze[player1->y][player1->x] != '1')
-				{
-					printf("%s", player1->shape); 
 					break;
-				}
-					break;
+					
 		}
 	}
 }

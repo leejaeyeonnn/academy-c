@@ -130,7 +130,6 @@
     <ClCompile Include="소스.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ai.h" />
     <ClInclude Include="keyboard.h" />
     <ClInclude Include="player1.h" />
   </ItemGroup>

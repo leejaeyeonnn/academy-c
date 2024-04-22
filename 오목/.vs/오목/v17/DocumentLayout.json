@@ -1,14 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\uC624\uBAA9\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|C:\\Users\\user\\Desktop\\\uC624\uBAA9\\player1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|solutionrelative:player1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{87F613E6-2F55-4979-8104-0B6C80A53AB7}|..\\\uC624\uBAA93\\\uC624\uBAA93.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA93\\\uC624\uBAA93.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|C:\\Users\\user\\Desktop\\\uC624\uBAA9\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|solutionrelative:\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|solutionrelative:keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\player1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC9835C3-C6AE-4256-A9BB-1371A737004B}|\uC624\uBAA9.vcxproj|solutionrelative:player1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +30,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "\uC624\uBAA93.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA93\\\uC624\uBAA93.c",
+              "RelativeDocumentMoniker": "..\\\uC624\uBAA93\\\uC624\uBAA93.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA93\\\uC624\uBAA93.c",
+              "RelativeToolTip": "..\\\uC624\uBAA93\\\uC624\uBAA93.c",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAQwOAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-22T09:25:53.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "keyboard.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\keyboard.h",
+              "RelativeDocumentMoniker": "keyboard.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\keyboard.h",
+              "RelativeToolTip": "keyboard.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-22T09:15:50.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "player1.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\uC624\uBAA9\\player1.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\player1.h",
               "RelativeDocumentMoniker": "player1.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\\uC624\uBAA9\\player1.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\player1.h",
               "RelativeToolTip": "player1.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-18T10:45:04.022Z",
               "EditorCaption": ""
@@ -37,11 +70,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "\uC18C\uC2A4.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\uC624\uBAA9\\\uC18C\uC2A4.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\\uC18C\uC2A4.c",
               "RelativeDocumentMoniker": "\uC18C\uC2A4.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\\uC624\uBAA9\\\uC18C\uC2A4.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\academy-c\\\uC624\uBAA9\\\uC18C\uC2A4.c",
               "RelativeToolTip": "\uC18C\uC2A4.c",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAASAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-18T10:13:47.35Z",
               "EditorCaption": ""

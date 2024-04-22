@@ -1,0 +1,3 @@
+﻿  오목3.c
+C:\Users\user\Desktop\academy-c\오목3\오목3.c(69,14): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  오목3.vcxproj -> C:\Users\user\Desktop\academy-c\오목\x64\Debug\오목3.exe
