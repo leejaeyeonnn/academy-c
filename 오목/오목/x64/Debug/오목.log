@@ -1,11 +1,10 @@
 ﻿  소스.c
-C:\Users\user\Desktop\academy-c\오목\소스.c(14,1): warning C4005: 'WIDTH': 매크로 재정의
+C:\Users\user\Desktop\academy-c\오목\소스.c(22,1): warning C4005: 'WIDTH': 매크로 재정의
   C:\Users\user\Desktop\academy-c\오목\keyboard.h(13,1):
   'WIDTH'의 이전 정의를 참조하십시오.
   
-C:\Users\user\Desktop\academy-c\오목\소스.c(15,1): warning C4005: 'HEIGHT': 매크로 재정의
+C:\Users\user\Desktop\academy-c\오목\소스.c(23,1): warning C4005: 'HEIGHT': 매크로 재정의
   C:\Users\user\Desktop\academy-c\오목\keyboard.h(14,1):
   'HEIGHT'의 이전 정의를 참조하십시오.
   
-C:\Users\user\Desktop\academy-c\오목\소스.c(96,9): warning C4048: 배열 첨자가 다릅니다. 'char (*)[19]'과(와) 'char [18][18]'
   오목.vcxproj -> C:\Users\user\Desktop\academy-c\오목\x64\Debug\오목.exe

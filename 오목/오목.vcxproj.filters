@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="player1.h">
+    <ClInclude Include="player.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="keyboard.h">

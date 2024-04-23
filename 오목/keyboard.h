@@ -1,5 +1,5 @@
 #pragma once
-#include "player1.h"
+#include "player.h"
 #include <stdio.h>
 #include <conio.h>
 
@@ -13,38 +13,79 @@
 #define WIDTH 19
 #define HEIGHT 19
 
+int aa=1;
 
-void Input(char maze[WIDTH][HEIGHT], player1*player1)
+void Input(player1*player1, player2*player2)
 {
-	if (_kbhit()) //키보드 입력이 확인됐다면
+	for (int r = 0; r < WIDTH * HEIGHT; r++)
 	{
-		char key = _getch();//키보드 입력을 받습니다.
-
-		switch (key)
+		if (_kbhit()) //키보드 입력이 확인됐다면
 		{
-			case 32: 
-			
-			break;
+			char key = _getch();//키보드 입력을 받습니다.
+			if (aa = 1)
+			{
+				switch (key)
+				{
+				case 32:
 
-			case UP:  
-				player1->y--;
-				break;
+					break;
 
-			case LEFT:
-				
-				player1->x -= 2;
-				break;
+				case UP:
+					player1->y--;
+					break;
 
-			case RIGHT:
-				
-				player1->x += 2;
-				break;
+				case LEFT:
+					player1->x -= 2;
+					break;
 
-			case DOWN:
-				
+				case RIGHT:
+					player1->x += 2;
+					break;
+
+				case DOWN:
 					player1->y++;
 					break;
+
+				case ENTER:
+					printf("●");
+					aa = aa - 1;
+			
+
+
+				}
+			}
+
+
+			if (aa == 0)
+			{
+				switch (key)
+				{
+				case UP:
+					player2->py--;
+					break;
+
+				case LEFT:
+					player2->px -= 2;
+					break;
+
+				case RIGHT:
+					player2->px += 2;
+					break;
+
+				case DOWN:
+					player2->py++;
+					break;
+
+				case ENTER:
+					printf("○");
+					aa = aa + 1;
 					
+
+				}
+			}
+
+
+
 		}
 	}
 }
