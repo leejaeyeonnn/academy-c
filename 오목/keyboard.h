@@ -10,14 +10,14 @@
 #define DOWN 80
 #define ENTER 13
 
-#define WIDTH 19
-#define HEIGHT 19
+#define WIDTH 18
+#define HEIGHT 18
 
 int aa=1;
 
-void Input(player1*player1, player2*player2)
+void Input(char maze[WIDTH][HEIGHT], Player1*player1, Player2*player2)  
 {
-	for (int r = 0; r < WIDTH * HEIGHT; r++)
+	for (int r = 0; r < WIDTH * HEIGHT; r++) 
 	{
 		if (_kbhit()) //키보드 입력이 확인됐다면
 		{
@@ -47,11 +47,15 @@ void Input(player1*player1, player2*player2)
 					break;
 
 				case ENTER:
-					printf("●");
-					aa = aa - 1;
-			
-
-
+ 
+					aa--;
+					Player1 player;
+					player.x = player1->x;
+					player.y = player1->y;
+					player.shape = player1->shape;
+					GotoXY(player1->x, player1->y);
+					printf("%s", player.shape);
+					break;
 				}
 			}
 
@@ -76,11 +80,10 @@ void Input(player1*player1, player2*player2)
 					player2->py++;
 					break;
 
-				case ENTER:
-					printf("○");
-					aa = aa + 1;
+				case ENTER: 
+					aa--;
+					break;
 					
-
 				}
 			}
 

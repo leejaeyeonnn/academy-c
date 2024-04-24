@@ -73,6 +73,14 @@ void drawmap()
 			{
 				printf("┷");
 			}
+			else if (maze[i][j] == '5')
+			{
+				printf("●"); 
+			}
+			else if (maze[i][j] == '6')
+			{
+				printf("○");
+			}
 		}
 
 		printf("\n");
@@ -209,23 +217,29 @@ int main()
 	printf("오목의 룰:\n1. 16x16 크기의 바둑 판에 돌아가면서 바둑 알을 하나씩 놓습니다.\n");
 	printf("2.자신의 바둑 색이 대각선 혹은 일자로 5개가 연속적으로 배치되어 있다면 승리입니다.\n");
 	
-	player1 player1 = {17, 9, "●"}; 
-	player2 player2 = { 19, 9, "○" };
+	Player1 player1 = {17, 9, "●"}; 
+	Player2 player2 = { 19, 9, "○" };
 	map();
 
 	while (1)
 	{
+	
+			drawmap();
 
-		drawmap();  
-		Input(&player1, &player2);  
-		GotoXY(player1.x, player1.y);
-		printf("%s", player1.shape);  
-		gotoxy(player2.px, player2.py);   
-		printf("%s", player2.shape);		 
+			Input(maze, &player1, &player2);
+
+			GotoXY(player1.x, player1.y);
+			printf("%s", player1.shape);
+			
 
 
-		Sleep(20); 
-		system("cls");
+			gotoxy(player2.px, player2.py);
+			printf("%s", player2.shape);
+
+
+			Sleep(20);
+			system("cls");
+
 	}
 
 	return 0;

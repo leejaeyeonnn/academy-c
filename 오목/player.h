@@ -1,18 +1,18 @@
 #pragma once
 #include <windows.h>
 
-typedef struct player1 //이름을 재정의 한다
+typedef struct Player1 //이름을 재정의 한다
 {
 	int x, y;
 	const char* shape;
 
-} player1;
+} Player1;
 
-typedef struct player2
+typedef struct Player2
 {
 	int px, py;
 	const char* shape;
-} player2;
+} Player2;
 
 void GotoXY(int x, int y)
 {
