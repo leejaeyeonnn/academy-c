@@ -1,2 +1,8 @@
 ﻿  소스.c
+C:\Users\user\Desktop\academy-c\오목\keyboard.h(53,13): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  (소스 파일 '소스.c'을(를) 컴파일하는 중)
+  
+C:\Users\user\Desktop\academy-c\오목\keyboard.h(53,13): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+  (소스 파일 '소스.c'을(를) 컴파일하는 중)
+  
   오목.vcxproj -> C:\Users\user\Desktop\academy-c\오목\x64\Debug\오목.exe

@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\user\Desktop\academy-c\오목5\소스.cpp(155,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Desktop\academy-c\오목5\소스.cpp(155,22): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  오목5.vcxproj -> C:\Users\user\Desktop\academy-c\오목\x64\Debug\오목5.exe

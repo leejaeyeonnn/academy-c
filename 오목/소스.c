@@ -22,6 +22,7 @@
 #define WIDTH 18
 #define HEIGHT 18
 
+
 char maze[WIDTH][HEIGHT];
 char bwin = 0, wwin = 0;
 void map()
@@ -220,6 +221,8 @@ int main()
 	Player1 player1 = {17, 9, "¡Ü"}; 
 	Player2 player2 = { 19, 9, "¡Û" };
 	map();
+	char* Player1 = (char*)malloc(sizeof(char));
+	char* Player2 = (char*)malloc(sizeof(char));
 
 	while (1)
 	{
@@ -230,13 +233,24 @@ int main()
 
 			GotoXY(player1.x, player1.y);
 			printf("%s", player1.shape);
-			
+		
 
 
 			gotoxy(player2.px, player2.py);
 			printf("%s", player2.shape);
 
+			if (cc==1&&aa == 1)
+			{
+				printf("¡Ü");
+				
+			}
+			else if (cc==0&&aa == 0)
+			{
+				printf("¡Û");
+				
+			}
 
+		
 			Sleep(20);
 			system("cls");
 

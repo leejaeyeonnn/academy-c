@@ -1,0 +1,5 @@
+﻿  소스.cpp
+C:\Users\user\Desktop\academy-c\kingslave\소스.cpp(11,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'King' 왼쪽은 무시됩니다.
+C:\Users\user\Desktop\academy-c\kingslave\소스.cpp(17,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Citizen' 왼쪽은 무시됩니다.
+C:\Users\user\Desktop\academy-c\kingslave\소스.cpp(23,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Slave' 왼쪽은 무시됩니다.
+  kingslave.vcxproj -> C:\Users\user\Desktop\academy-c\오목\x64\Debug\kingslave.exe

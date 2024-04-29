@@ -4,6 +4,7 @@
 #include <conio.h>
 
 
+
 #define UP 72
 #define LEFT 75
 #define RIGHT 77
@@ -12,6 +13,8 @@
 
 #define WIDTH 18
 #define HEIGHT 18
+
+int cc = 0;
 
 int aa=1;
 
@@ -47,15 +50,8 @@ void Input(char maze[WIDTH][HEIGHT], Player1*player1, Player2*player2)
 					break;
 
 				case ENTER:
- 
-					aa--;
-					Player1 player;
-					player.x = player1->x;
-					player.y = player1->y;
-					player.shape = player1->shape;
-					GotoXY(player1->x, player1->y);
-					printf("%s", player.shape);
-					break;
+					printf("%s", *player1->shape);
+
 				}
 			}
 
@@ -80,10 +76,7 @@ void Input(char maze[WIDTH][HEIGHT], Player1*player1, Player2*player2)
 					player2->py++;
 					break;
 
-				case ENTER: 
-					aa--;
-					break;
-					
+	
 				}
 			}
 
