@@ -13,8 +13,8 @@
 #define WIDTH 19
 #define HEIGHT 19
 #define ESC 27
-#define U1 1
-#define U2 2
+#define P1 1
+#define P2 2 
 
 typedef struct XY
 {
@@ -30,7 +30,7 @@ void gotoxy(int x, int y)
 }
  
 
-void initGame()
+void drawmap()
 {
 	
 	for (int i = 0; i < HEIGHT; i++)
@@ -66,10 +66,7 @@ void initGame()
 				{
 					printf(" ┘");
 				}
-				else if(k == 0)
-				{
-						printf("└");
-				}
+				
 				else
 				{
 					printf(" ┴");
@@ -83,36 +80,33 @@ void initGame()
 
 }
 
-int searchstone(XY hd, int map[HEIGHT][WIDTH], int flag, int p, int sw) 
-//flag는 돌을 나타내는 값. //p는 이동방향을 나타내는 변수0 
-// 0은 위쪽 1은 오른쪽 2 대각선오른쪽아래 3대각선오른쪽 위 
-//sw는 이동 거리를 나타내는 변수 
-{
-	if (map[hd.y][hd.x] != flag)
-	{
-		return 0;
-	}
-	if (p == 0)
-	{
-		hd.y += sw;
-	}
-	else if (p == 1)
-	{
-		hd.x += sw;
-	}
-	else if (p == 2)
-	{
-		hd.x += sw;
-		hd.y += sw;
-	}
-	else
-	{
-		hd.x += sw;
-		hd.y -= sw;
-	}
-	return 1 + searchstone(hd, map, flag, p, sw);
-	//돌을 찾을 때마다 1을 반환한다
 
+int searchstone(XY hd, int map[HEIGHT][WIDTH], int flag, int p, int sw) 
+{
+	int count = 0;
+	while (map[hd.y][hd.x] == flag) 
+	{
+		count++;
+		if (p == 0)
+		{
+			hd.y += sw;
+		}
+		else if (p == 1) 
+		{
+			hd.x += sw;
+		}
+		else if (p == 2)
+		{
+			hd.x += sw;
+			hd.y += sw;
+		}
+		else 
+		{
+			hd.x += sw;
+			hd.y -= sw;
+		}
+	}
+	return count;
 }
 
 void checkstone(XY hd, int map[HEIGHT][WIDTH], int turn)
@@ -126,7 +120,7 @@ void checkstone(XY hd, int map[HEIGHT][WIDTH], int turn)
 		if (countstone == 6)
 		{
 			gotoxy(0, HEIGHT);
-				if (turn == U1)
+				if (turn == P1)
 				{
 					printf("사용자 1");
 					
@@ -145,7 +139,7 @@ void checkstone(XY hd, int map[HEIGHT][WIDTH], int turn)
 void startgame(int map[HEIGHT][WIDTH])
 {
 	
-	int turn = U1;
+	int turn = P1;
 	XY hd = { WIDTH / 2,HEIGHT / 2 };
 	while (1)
 	{
@@ -184,19 +178,19 @@ void startgame(int map[HEIGHT][WIDTH])
 				{
 					gotoxy(hd.x * 2, hd.y);
 
-					if (turn == U1)
+					if (turn == P1)
 					{
-						map[hd.y][hd.x] = U1;
+						map[hd.y][hd.x] = P1;
 						printf("●");
 						checkstone(hd, map, turn);
-						turn = U2;
+						turn = P2;
 					}
 					else
 					{
-						map[hd.y][hd.x] = U2;
+						map[hd.y][hd.x] = P2;
 						printf("○");
 						checkstone(hd, map, turn);
-						turn = U1;
+						turn = P1;
 					}
 				}
 
@@ -219,7 +213,7 @@ int main()
 
 	_getch();
 	system("cls");
-	initGame();
+	drawmap();
 	startgame(map);
 
 }
